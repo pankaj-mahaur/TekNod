@@ -178,13 +178,11 @@ a {
 }
 
 /* Service Section */
-iframe {
-    width: 200px;
-    height: 200px;
+
+.services-images {
+    width: 100%;
+    height: auto;
 }
-
-
-
 
 .services-section {
     padding: 61rem 0 3rem o;
@@ -204,6 +202,9 @@ iframe {
 .card-box:hover {
     box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
 }
+
+/* services section ends */
+
 
 /* Showcase section starts */
 
