@@ -99,13 +99,13 @@ a {
 }
 
 .common-heading {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     font-weight: 500;
     letter-spacing: 0.01rem;
 }
 
 .common-tittle {
-    margin-bottom: 4.2rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -151,6 +151,10 @@ a {
     color: var(--grey-color);
 }
 
+.common-section {
+    padding: 0 0 5rem 0;
+}
+
 /* .bg-theme {
     color: var(--secondary-color);
     background-image: none;
@@ -185,7 +189,7 @@ a {
 }
 
 .services-section {
-    padding: 61rem 0 3rem o;
+    padding: 4rem 0 3rem 0;
 }
 
 .icon-span {
@@ -228,7 +232,42 @@ a {
     width: 40%;
 }
 
+.business-section {
+    padding-top: 2.5rem;
+}
 
 
 
 /* Showcase section ends */
+
+/* < !-- Testimonial section start --> */
+
+.carousel-inner .card {
+    z-index: 10;
+    transition: all .2s linear;
+
+}
+
+.carousel-inner .card:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer !important;
+
+}
+
+.carousel-inner .card:hover .card-body .card-text {
+    color: var(--light-color);
+
+}
+
+.carousel-indicators {
+    bottom: -5rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 4rem;
+    height: .4rem;
+    background-color: var(--light-color);
+}
+
+/* < !-- Testimonial section ends --> */
