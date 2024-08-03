@@ -233,6 +233,18 @@ a {
     width: 40%;
 }
 
+.more-info-section .container {
+    width: 99%;
+    z-index: 10;
+    transition: all .2s linear;
+}
+
+.more-info-section .container:hover {
+
+    box-shadow: -5px 0 25px -5px var(--light-color), 5px 0 25px -5px var(--light-color);
+    transform: scale(1.05);
+}
+
 /* Showcase section ends */
 
 
@@ -303,3 +315,43 @@ a {
 }
 
 /* Experts section ends */
+
+/* Contact Section starts */
+.contact-section {
+    position: relative !important;
+}
+
+.custom-shape-divider-top-1722686345 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1722686345 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 104px;
+}
+
+.custom-shape-divider-top-1722686345 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.contact-section .form-section {
+    width: 50%;
+
+}
+
+.contact-section .container {
+    color: var(--light-color);
+}
+
+.small-text {
+    color: var(--grey-color) !important;
+}
+
+/* Contact section ends */
