@@ -70,6 +70,11 @@ li {
     list-style: none;
 }
 
+.bg-theme {
+    color: var(--dark-color);
+    background-image: none !important;
+    font-weight: bolder;
+}
 
 .insta {
     margin-right: 10px;
@@ -355,3 +360,80 @@ a {
 }
 
 /* Contact section ends */
+
+/* Footer section starts */
+.main-footer-section {
+    padding: 0 0 4rem 0 !important;
+    background-color: var(--third-color);
+    color: var(--dark-color);
+}
+
+.main-footer-section .col-lg-4 {
+    background-color: var(--primary-color) !important;
+}
+
+.icon-div {
+    width: 5rem;
+    height: 5rem !important;
+
+}
+
+.subscribe-input {
+    border-radius: 2rem;
+}
+
+.footer-section .footer-links {
+    color: var(--grey-color);
+}
+
+/* Footer section ends */
+
+
+/* Responsive styling */
+
+@media screen and (max-width: 1530px) {}
+
+@media screen and (max-width: 998px) {
+    .navbar-toggler {
+        border-color: var(--light-color);
+        transition: transform 0.3s ease;
+    }
+
+    .navbar-toggler:active {
+        transform: scale(1.1);
+    }
+
+
+    .navbar-toggler:focus {
+        color: var(--third-color);
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .teknod {
+        font-size: 4rem;
+    }
+
+    .section .common-heading {
+        font-size: 2rem;
+    }
+
+    .section .para-width {
+        width: auto;
+    }
+
+    .hero-section {
+        height: 100vh;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .more-info-section {
+        text-align: center;
+    }
+}
