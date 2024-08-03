@@ -108,6 +108,9 @@ a {
     margin-bottom: 4rem;
 }
 
+.common-section {
+    padding: 0 0 4rem 0;
+}
 
 
 
@@ -151,9 +154,7 @@ a {
     color: var(--grey-color);
 }
 
-.common-section {
-    padding: 0 0 5rem 0;
-}
+
 
 /* .bg-theme {
     color: var(--secondary-color);
@@ -232,19 +233,26 @@ a {
     width: 40%;
 }
 
+/* Showcase section ends */
+
+
+/* Online section starts */
+
 .business-section {
     padding-top: 2.5rem;
 }
 
+/* Online section ends */
 
 
-/* Showcase section ends */
+
 
 /* < !-- Testimonial section start --> */
 
 .carousel-inner .card {
     z-index: 10;
     transition: all .2s linear;
+    box-shadow: rgba(255, 255, 255, 0.636) 0 8px 20px;
 
 }
 
@@ -252,6 +260,7 @@ a {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     cursor: pointer !important;
+    box-shadow: rgba(255, 255, 255, 0.636) 0 20px 40px;
 
 }
 
@@ -271,3 +280,26 @@ a {
 }
 
 /* < !-- Testimonial section ends --> */
+
+
+/* Experts section starts */
+.card-main-heading {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.experts .card {
+    z-index: 10;
+    transition: all .2s linear;
+    box-shadow: rgba(84, 84, 84, 0.636) 0 5px 15px;
+    height: 715px;
+}
+
+.experts .card:hover {
+    cursor: pointer !important;
+    box-shadow: rgba(62, 62, 62, 0.636) 0 20px 40px;
+    transform: scale(1.09);
+}
+
+/* Experts section ends */
